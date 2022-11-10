@@ -38,13 +38,13 @@
             <h2>Houston, tenemos un problema.</h2>
             <p> En realidad, la página que estás buscando no existe.</p>
             <p>
-                <a href="{{ route('index') }}" class="btn red btn-outline"> Volver a inicio </a>
+                <a href="/" class="btn red btn-outline"> Volver a inicio </a>
                 <br> </p>
         </div>
         <!--[if lt IE 9]>
 <script src="../assets/global/plugins/respond.min.js"></script>
-<script src="../assets/global/plugins/excanvas.min.js"></script> 
-<script src="../assets/global/plugins/ie8.fix.min.js"></script> 
+<script src="../assets/global/plugins/excanvas.min.js"></script>
+<script src="../assets/global/plugins/ie8.fix.min.js"></script>
 <![endif]-->
         <!-- BEGIN CORE PLUGINS -->
         <script src="{{ asset('assets/global/plugins/jquery.min.js')}}" type="text/javascript"></script>

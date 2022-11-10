@@ -3,7 +3,7 @@
     <!--<![endif]-->
     <!-- BEGIN HEAD -->
     <head>
-        @include('admin.head')  
+        @include('admin.head')
         @yield('head')
     </head>
     <!-- END HEAD -->
@@ -15,7 +15,7 @@
                 <!-- BEGIN LOGO -->
                 <div class="page-logo">
                     <a href="inicio">
-                        <img src="{{ asset('images/udechorizontalp.png') }}" alt="logo" class="logo-default" /> </a>
+                        {{-- <img src="{{ asset('images/udechorizontalp.png') }}" alt="logo" class="logo-default" /> </a> --}}
                     <div class="menu-toggler sidebar-toggler">
                         <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
                     </div>
@@ -148,8 +148,8 @@
             <!-- END FOOTER -->
             <!--[if lt IE 9]>
 <script src="../assets/global/plugins/respond.min.js"></script>
-<script src="../assets/global/plugins/excanvas.min.js"></script> 
-<script src="../assets/global/plugins/ie8.fix.min.js"></script> 
+<script src="../assets/global/plugins/excanvas.min.js"></script>
+<script src="../assets/global/plugins/ie8.fix.min.js"></script>
 <![endif]-->
             <!-- BEGIN CORE PLUGINS -->
             @include('admin.foot')
